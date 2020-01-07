@@ -15,6 +15,7 @@
         <module>turbine</module>
         <module>zuul</module>
         <module>common</module>
+        <module>monitor</module>
     </modules>
     <!-- 打包方式，选POM -->
     <packaging>pom</packaging>

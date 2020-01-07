@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: order
+  boot:
+    admin:
+      client:
+        url: http://localhost:8771
 
 eureka:
   client:
@@ -16,3 +20,9 @@ eureka:
 feign:
   hystrix:
     enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

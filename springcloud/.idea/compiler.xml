@@ -12,6 +12,7 @@
         <module name="turbine" />
         <module name="order" />
         <module name="eurekaserver" />
+        <module name="monitor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="consul" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="jsoup" options="-parameters" />
+      <module name="monitor" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="turbine" options="-parameters" />
       <module name="user" options="-parameters" />
